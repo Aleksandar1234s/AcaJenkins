@@ -1,9 +1,9 @@
 pipeline {
-    agent any 
+    agent any
     stages {
-        stage('Stage 1') {
+        stage('Build') {
             steps {
-                echo 'adfasdfasdfo world!' 
+                bat 'set'
             }
         }
     }
